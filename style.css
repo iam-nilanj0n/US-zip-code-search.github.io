@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(95, 91, 91);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 20vh 0 0 32vw;
+    background-color: rgb(142, 131, 131);
+    height: 40vh;
+    width: 30vw;
+    padding: 25px;
+    border: 0.2px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 4px 7px rgb(28, 25, 25);
+}
+h1{
+    text-align: center;
+    margin: 0 0 2vh 0;
+}
+
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+}
+input:focus{
+    outline:1.5px solid rgb(197, 4, 201);
+}
+button{
+    width: 15vw;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(27, 23, 23);
+    border: 0.25px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0px 4px rgb(86, 65, 65);
+    margin-left: 7.5vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(2px);
+    box-shadow: 0px 2px rgb(35, 27, 27);
+}
+
+/* display section */
+.resultDisplay{
+    padding: 5px;
+    text-align: center;
+}
+p{
+    font-weight: bolder;
+    background-color: azure;
+    margin: 1vh 0;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 4px rgb(57, 56, 56);
+}
