@@ -13,7 +13,6 @@ let longitude = document.createElement('p');
 let dataArr = [];
 
 
-
 resultDisplay.style.visibility = 'hidden';
 resultDisplay.appendChild(state)
 resultDisplay.appendChild(city)
